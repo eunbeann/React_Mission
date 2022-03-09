@@ -1,0 +1,18 @@
+# dockerfile
+
+#베이스 이미지를 노트 버전 16 알파인으로 해주기
+FROM node:16-alpine
+
+#WORKDIR해서 컨테이너 안에 어떤 위치에 리액트 앱 넣을지 정해주기
+WORKDIR /usr/src/app
+
+# 컨테이너 안 경로 넣어주기
+COPY package.json ./
+
+#종속성들 설치해주기
+RUN npm install
+
+#다른 리엑트 파일들도 카피해서 넣어주기
+COPY  ./ ./
+
+CMD ["npm", "run", "start"]
