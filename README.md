@@ -22,5 +22,6 @@ Challenge
 ### 3차 미션 스크린샷
 
 Basic
- - 사진
+ - ![권은빈_3주차](https://user-images.githubusercontent.com/65286685/159475167-2a5c48b8-d77b-4973-9ddc-6cbb21e618b2.gif)
+
 
