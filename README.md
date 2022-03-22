@@ -18,3 +18,9 @@ Basic
 
 Challenge
  - 사진
+
+### 3차 미션 스크린샷
+
+Basic
+ - 사진
+
